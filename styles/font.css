@@ -1,0 +1,20 @@
+@font-face {
+    font-family: myNormal;
+    src: url('../fonts/persans.ttf');
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: myBold;
+    src: url('../fonts/persansb.ttf');
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: myItalic;
+    src: url('../fonts/persansi.ttf');
+    font-style: normal;
+    font-weight: normal
+}

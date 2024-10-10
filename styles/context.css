@@ -1,0 +1,249 @@
+.navigator1 {
+    width: 240px;
+    height: 50px;
+    border-bottom: 3px solid rgb(60, 60, 60);
+    font-size: 24px;
+    text-align: center;
+    line-height: 240%;
+    color: rgb(200, 200, 200)
+}
+
+.navigator2 {
+    width: 240px;
+    height: 50px;
+    border-bottom: 3px solid rgb(60, 60, 60);
+    background-color: rgb(3, 71, 34);
+    font-size: 24px;
+    text-align: center;
+    line-height: 240%;
+    color: rgb(200, 200, 200)
+}
+
+.language1 {
+    width: 46px;
+    height: 23px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(60, 60, 60, 0.60)
+}
+
+.title1 {
+    height: 90px;
+    background-color: rgba(60, 60, 60, 0.60);
+    font-family: myBold;
+    font-size: 36px;
+    text-align: center;
+    line-height: 200%;
+    color: rgb(255, 255, 255)
+}
+
+.subtitle1 {
+    width: 1100px;
+    font-family: myBold;
+    font-size: 32px;
+    line-height: 150%
+}
+
+.subtitle2 {
+    width: 1100px;
+    padding: 20px 0px 0px 0px;
+    font-family: myBold;
+    font-size: 22px;
+    line-height: 150%
+}
+
+.subtitle3 {
+    width: 800px;
+    padding: 20px 250px 0px 50px;
+    font-family: myBold;
+    font-size: 22px;
+    line-height: 150%
+}
+
+.subtitle4 {
+    width: 400px;
+    padding: 0px 0px 50px 0px;
+    font-family: myBold;
+    font-size: 22px;
+    line-height: 150%
+}
+
+.subtitle5 {
+    width: 200px;
+    padding: 20px 0px 0px 50px;
+    font-family: myBold;
+    font-size: 22px;
+    text-align: center;
+    line-height: 150%
+}
+
+.subtitle6 {
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    background-color: rgba(60, 60, 60, 0.60);
+    font-family: myBold;
+    font-size: 28px;
+    line-height: 150%;
+    color: rgb(255, 255, 255)
+}
+
+.subtitle7 {
+    width: 210px;
+    font-family: myBold;
+    font-size: 22px;
+    line-height: 150%
+}
+
+.subtitle8 {
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgba(60, 60, 60, 0.60);
+    font-family: myBold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 200%;
+    color: rgb(255, 255, 255)
+}
+
+.subtitle9 {
+    width: 1100px;
+    font-family: myBold;
+    font-size: 22px;
+    line-height: 10%
+}
+
+.subtitle0 {
+    width: 800px;
+    padding: 20px 250px 0px 50px;
+    font-family: myBold;
+    font-size: 20px;
+    line-height: 150%
+}
+
+.context1 {
+    top: 100px;
+    width: 1100px;
+    margin: 20px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.context2 {
+    top: 100px;
+    width: 800px;
+    margin: 0px 50px 0px 50px;
+    padding: 0px 100px 0px 100px;
+    border: 2px solid rgba(60, 60, 60, 0.80);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    line-height: 150%
+}
+
+.context3 {
+    top: 100px;
+    width: 750px;
+    margin: 20px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.context4 {
+    top: 100px;
+    width: 1100px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    line-height: 150%
+}
+
+.context5 {
+    top: 100px;
+    width: 1020px;
+    margin: 20px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.context6 {
+    top: 100px;
+    width: 1100px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.intro1 {
+    width: 1100px;
+    padding: 10px 0px 20px 0px
+}
+
+.address1 {
+    width: 400px;
+    height: 30px;
+    font-family: myBold;
+    font-size: 16px;
+    line-height: 250%
+}
+
+.address2 {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 100%
+}
+
+.tab1 {
+    width: 200px;
+    vertical-align: top;
+    font-family: myItalic;
+    color: rgb(128, 0, 0)
+}
+
+.tab2 {
+    width: 900px;
+    vertical-align: top
+}
+
+.tab3 {
+    width: 500px;
+    vertical-align: top
+}
+
+.tab4 {
+    width: 250px;
+    padding: 300px 0px 0px 0px;
+    font-family: myBold;
+    vertical-align: bottom;
+    text-align: center
+}
+
+.tab5 {
+    width: 70px;
+    font-family: myBold;
+    vertical-align: center;
+    text-align: center
+}
+
+.legend1 {
+    width: 350px;
+    margin: 75px 0px 0px 700px;
+    font-size: 14px;
+    line-height: 150%
+}
+
+.banner {
+    overflow: auto
+}
+
+.bottom1 {
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    background-color: seagreen;
+    color: rgb(250, 250, 250)
+}

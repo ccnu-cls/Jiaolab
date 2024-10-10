@@ -1,0 +1,334 @@
+.f_navigator1 {
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    background-color: seagreen
+}
+
+.f_navigator2 {
+    position: absolute;
+    width: 240px;
+    height: 50px
+}
+
+.f_logo1 {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 300px
+}
+
+.f_img1 {
+    position: absolute;
+    top: 60px;
+    width: 1200px;
+    height:400px
+}
+
+.f_img2 {
+    position: absolute;
+    width: 600px;
+    padding: 0px 0px 0px 50px
+}
+
+.f_img3 {
+    position: absolute;
+    width: 600px;
+    padding: 0px 0px 0px 100px
+}
+
+.f_img4 {
+    position: absolute;
+    width: 200px;
+    padding: 0px 0px 0px 150px
+}
+
+.f_img5 {
+    position: absolute;
+    width: 200px;
+    padding: 35px 0px 0px 125px
+}
+
+.f_img6 {
+    position: absolute;
+    width: 200px;
+    padding: 35px 0px 0px 375px
+}
+
+.f_img7 {
+    position: absolute;
+    width: 200px;
+    padding: 35px 0px 0px 625px
+}
+
+.f_img8 {
+    position: absolute;
+    width: 200px;
+    padding: 35px 0px 0px 875px
+}
+
+.f_img9 {
+    position: absolute;
+    width: 250px;
+    margin: 100px 0px 0px 810px
+}
+
+.f_img10 {
+    position: absolute;
+    width: 300px;
+    margin: 0px 0px 0px 200px
+}
+
+.f_img11 {
+    position: absolute;
+    z-index: -1;
+    width: 550px;
+    margin: 0px 0px 0px 400px
+}
+
+.f_img12 {
+    position: absolute;
+    width: 380px;
+    margin: 490px 0px 0px 0px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_img13 {
+    position: absolute;
+    width: 380px;
+    margin: 490px 0px 0px 410px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_img14 {
+    position: absolute;
+    width: 380px;
+    margin: 490px 0px 0px 820px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_img15 {
+    position: absolute;
+    width: 300px;
+    margin: 50px 0px 0px 800px
+}
+
+.f_img16 {
+    position: absolute;
+    width: 380px;
+    margin: 490px 0px 0px 0px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_img17 {
+    position: absolute;
+    width: 380px;
+    margin: 490px 0px 0px 410px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_img18 {
+    position: absolute;
+    width: 380px;
+    margin: 490px 0px 0px 820px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_img19 {
+    position: absolute;
+    width: 400px;
+    margin: 60px 0px 0px 650px
+}
+
+.f_img20 {
+    position: absolute;
+    width: 500px;
+    margin: 1400px 0px 0px 550px
+}
+
+.f_img21 {
+    position: absolute;
+    width: 500px;
+    margin: 200px 0px 0px 550px
+}
+
+.f_img22 {
+    position: absolute;
+    width: 500px;
+    margin: 980px 0px 0px 550px
+}
+
+.f_img23 {
+    position: absolute;
+    width: 450px;
+    margin: 1050px 0px 0px 550px
+}
+
+.f_img24 {
+    position: absolute;
+    width: 300px;
+    margin: 90px 0px 0px 750px
+}
+
+.f_img25 {
+    position: absolute;
+    width: 200px;
+    margin: 20px 0px 0px 250px
+}
+
+.f_img26 {
+    position: absolute;
+    width: 400px;
+    margin: 260px 0px 0px 650px
+}
+
+.f_img27 {
+    position: absolute;
+    width: 400px;
+    margin: 200px 0px 0px 650px
+}
+
+.f_language1 {
+    position: absolute;
+    top: 120px;
+    left: 1020px;
+    height: 25px
+}
+
+.f_language2 {
+    position: absolute;
+    top: 120px;
+    left: 1080px;
+    height: 25px
+}
+
+.f_title1 {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    width: 900px;
+    height: 90px
+}
+
+.f_container1 {
+    position: absolute;
+    width: 1100px;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(255, 255, 255)
+}
+ 
+
+.f_container2 {
+    position: absolute;
+    width: 1100px;
+    padding: 50px 50px 50px 50px
+}
+
+.f_container3 {
+    position: absolute;
+    top: 600px;
+    width: 450px;
+    padding: 200px 0px 100px 750px
+}
+
+.f_container4 {
+    position: absolute;
+    top: 760px;
+    width: 380px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_container5 {
+    position: absolute;
+    top: 760px;
+    width: 380px;
+    margin: 0px 0px 0px 410px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_container6 {
+    position: absolute;
+    top: 760px;
+    width: 380px;
+    margin: 0px 0px 0px 820px;
+    padding: 0px 0px 0px 0px
+}
+
+.f_container7 {
+    position: absolute;
+    top: 1392px;
+    width: 210px
+}
+
+.f_container8 {
+    position: absolute;
+    top: 555px;
+    width: 380px;
+    margin: 0px 0px 0px 0px
+}
+
+.f_container9 {
+    position: absolute;
+    top: 555px;
+    width: 380px;
+    margin: 0px 0px 0px 410px
+}
+
+.f_container10 {
+    position: absolute;
+    top: 555px;
+    width: 380px;
+    margin: 0px 0px 0px 820px
+}
+
+.f_container11 {
+    position: absolute;
+    width: 880px;
+    padding: 0px 160px 50px 160px;
+    background-color: rgb(255, 255, 255)
+}
+
+.f_link1 {
+    position: absolute;
+    top: 600px;
+    right: 0px
+}
+
+.f_split1 {
+    position: absolute;
+    width: 1200px;
+}
+
+.f_bottom1 {
+    position: absolute;
+    width: 1200px;
+    height: 25px;
+    background-color: seagreen
+}
+
+#div1 {
+    position: relative;
+    border: 1px;
+    width: 1200px;
+    height: 300px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+#div1 ul {
+    position: absolute;
+    left: 0;
+}
+
+#div1 ul li {
+    list-style: none;
+    width: 200px;
+    float: left;
+    padding: 10px;
+    height: 160px;
+}
+
+#div1 ul li img {
+    width: 100%;
+}
