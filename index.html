@@ -172,8 +172,26 @@
     </div>
 -->
     <div class="f_bottom1" style="top:800px">
-        <div class="bottom1">©华中师范大学生命科学学院焦恒武实验室&nbsp; 地址:武汉市珞喻路152号生命科学学院&nbsp;&nbsp; 邮政编码:430072</div>
+        <div class="bottom1">©华中师范大学生命科学学院焦恒武实验室&nbsp; 地址:武汉市珞喻路152号生命科学学院&nbsp;&nbsp; 邮政编码:430072 当前访问量: <span id="visit-count">加载中...</span></div>
     </div>
+    <script>
+        // 获取之前存储的访问量
+        let visitCount = localStorage.getItem('visitCount');
+        
+        // 如果没有存储的访问量，初始化为 0
+        if (visitCount === null) {
+            visitCount = 0;
+        }
+        
+        // 每次访问时，增加访问量
+        visitCount++;
+        
+        // 将更新后的访问量存储到 localStorage
+        localStorage.setItem('visitCount', visitCount);
+        
+        // 显示访问量
+        document.getElementById('visit-count').innerText = visitCount;
+    </script>
 </body>
 
 </html>
