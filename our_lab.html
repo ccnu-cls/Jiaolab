@@ -15,14 +15,32 @@
 
 
 	<body>
-                <div class="f_navigator1">
-                        <div class="f_navigator2" style="left:0px"><a href="index.html"><div class="navigator1">首页</div></a></div>
-                        <div class="f_navigator2" style="left:240px"><a href="our_lab.html"><div class="navigator2">成员介绍</div></a></div>
-                        <div class="f_navigator2" style="left:480px"><a href="research.html"><div class="navigator1">研究方向</div></a></div>
-                        <div class="f_navigator2" style="left:720px"><a href="publication.html"><div class="navigator1">研究成果</div></a></div>
-                        <!--<div class="f_navigator2" style="left:800px"><a href="project.html"><div class="navigator1">重点项目</div></a></div>-->
-                        <div class="f_navigator2" style="left:960px"><a href="join_us.html"><div class="navigator1">招贤纳士</div></a></div>
-                </div>
+<div class="f_navigator1">
+    <div class="f_navigator2" style="left:0px">
+        <a href="index.html"><div class="navigator1">首页</div></a>
+    </div>
+
+    <!-- 成员介绍 + 二级菜单 -->
+    <div class="f_navigator2" style="left:240px">
+        <a href="our_lab.html"><div class="navigator2">成员介绍</div></a>
+        <ul class="subnav">
+            <li><a href="our_lab.html">现有成员</a></li>
+            <li><a href="former_member.html">过去成员</a></li>
+        </ul>
+    </div>
+
+    <div class="f_navigator2" style="left:480px">
+        <a href="research.html"><div class="navigator1">研究方向</div></a>
+    </div>
+
+    <div class="f_navigator2" style="left:720px">
+        <a href="publication.html"><div class="navigator1">研究成果</div></a>
+    </div>
+
+    <div class="f_navigator2" style="left:960px">
+        <a href="join_us.html"><div class="navigator1">招贤纳士</div></a>
+    </div>
+</div>
 
                 <div class="f_img1">
                         <div class="banner">
@@ -36,42 +54,49 @@
 
                 <div class="f_title1"><div class="title1">成员介绍</div></div>
 
-                <div class="f_container1" style="top:490px">
-                        <div class="subtitle1">课题组负责人</div>
-                        <div class="context1">
-                                <table style="width:1100px">
-                                        <tr>
-                                                <td><table style="width:1100px; border:1px solid">
-                                                        <tr>
-                                                                <td style="width:200px">
-                                                                        <a href="jhw.html">
-                                                                        <img src="images/staff/jiaohengwhu.png" />
-                                                                        </a>
-                                                                </td>
-                                                                <td><table style="width:900px">
-                                                                        <tr><td><b>焦恒武</b> (hwjiao@ccnu.edu.cn)</td></tr>
-                                                                        <tr><td>生态学博士</td></tr>
-                                                                        <tr><td>华中师范大学研究员   博士生导师</td></tr>
-                                                                        <tr><td>实验室位置：华中师范大学生命科学学院240室 </td></tr>
-                                                                        <tr><td></td></tr>
-                                                                    <tr><td><hr /></td></tr>
-                                                                        <tr><td><b>研究兴趣：</b></td></tr>
-                                                                        <tr><td>
-                                                                                <ul>
-                                                                                        <li style="margin-left:50px">动物生态与适应性进化 </li>
-                                                                                        <li style="margin-left:50px">系统发育基因组学与生命之树构建</li>
-                                                                                        <li style="margin-left:50px">演化基因组学和物种适应性</li>
-                                                                                </ul>
-                                                                        </td></tr>
-                                                                        
+                <div class="teacher-container" style="top:490px">
+    <div class="subtitle1">课题组教师</div>
+    <div class="teacher-list">
+        <!-- 第一个老师 -->
+        <div class="teacher-card">
+            <a href="jhw.html">
+                <img src="images/staff/jiaohengwhu.png" />
+            </a>
+            <div class="teacher-info">
+                <b>焦恒武</b> (hwjiao@ccnu.edu.cn)<br>
+                生态学博士<br>
+                华中师范大学教授 博士生导师<br>
+                实验室位置：华中师范大学生命科学学院240室
+                <hr>
+                <b>研究兴趣：</b>
+                <ul>
+                    <li>动物生态与适应性进化</li>
+                    <li>系统发育基因组学与生命之树构建</li>
+                    <li>演化基因组学和物种适应性</li>
+                </ul>
+            </div>
+        </div>
 
-                                                                </table></td>
-                                                        </tr>
-                                                </table></td>
-                                        </tr>
-                                </table>
-                        </div>
-                </div>
+        <!-- 第二个老师 -->
+        <div class="teacher-card">
+            <a href="ysc.html">
+                <img src="images/staff/ysc.png" />
+            </a>
+            <div class="teacher-info">
+                <b>易鄯丞</b> (yishancheng@ccnu.edu.cn)<br>
+                农学博士<br>
+                华中师范大学副研究员<br>
+                实验室位置：华中师范大学生命科学学院240室
+                <hr>
+                <b>研究兴趣：</b>
+                <ul>
+                    <li>动物化学感知的分子演化</li>
+                    <!--<li>群落演替与多样性</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -95,12 +120,27 @@
                                                         <tr><td style="text-align:center"><b>谢存杰(生物学)</b></td></tr>
 
                                               </table></td>
-                                                <td><table style="width:225px">
+                                              <td><table style="width:225px; border:1px solid">
+                                                        <tr><td><a href="qxt.html">
+                                                        <img src="images/staff/qxt.jpg" />        
+                                                        </a>
+                                                                </td></tr>
+                                                        <tr><td style="text-align:center"><b>覃晓婷(生态学)</b></td></tr>
 
-                                                </table></td>
-                                                <td><table style="width:225px">
+                                              </table></td>
 
-                                                </table></td>
+                                              <td><table style="width:225px; border:1px solid">
+                                                        <tr><td><a href="dxy.html">
+                                                        <img src="images/staff/dxy.png" />        
+                                                        </a>
+                                                                </td></tr>
+                                                        <tr><td style="text-align:center"><b>邓欣云(生态学)</b></td></tr>
+
+                                              </table></td>
+                                                <!--<td><table style="width:225px">
+
+                                                </table></td>-->
+                                              
                                                  <!--<td><table style="width:225px; border:1px solid">
                                                         <tr><td><a href="join_us.html"><img src="../../images/staff/join.jpg" /></a></td></tr>
                                                         <tr><td style="text-align:center"><b>虚位以待</b></td></tr>
@@ -148,27 +188,27 @@
                                         <tr>
 
                                                 <td><table style="width:225px; border:1px solid">
-                                                        <tr><td><a href="qxt.html">
-                                                        <img src="images/staff/qxt.jpg" />        
-                                                        </a>
-                                                                </td></tr>
-                                                        <tr><td style="text-align:center"><b>覃晓婷(生态学)</b></td></tr>
-                                                       
-                                                </table></td>
-                                                <td><table style="width:225px; border:1px solid">
                                                         <tr><td><a href="zyl.html">
                                                         <img src="images/staff/zyl.png" />        
                                                         </a>
                                                                 </td></tr>
                                                         <tr><td style="text-align:center"><b>邹雨璐(生物学)</b></td></tr>
+                                                       
+                                                </table></td>
+                                                <td><table style="width:225px; border:1px solid">
+                                                        <tr><td><a href="zjy.html">
+                                                        <img src="images/staff/zjy.jpg" />        
+                                                        </a>
+                                                                </td></tr>
+                                                        <tr><td style="text-align:center"><b>张佳燕(生态学)</b></td></tr>
                                                         
                                                 </table></td>
                                                 <td><table style="width:225px; border:1px solid">
-                                                        <tr><td><a href="dxy.html">
-                                                        <img src="images/staff/dxy.png" />       
+                                                        <tr><td><a href="hzj.html">
+                                                        <img src="images/staff/hzj.jpg" />       
                                                         </a>
                                                                 </td></tr>
-                                                        <tr><td style="text-align:center"><b>邓欣云(生物学)</b></td></tr>
+                                                        <tr><td style="text-align:center"><b>侯之杰(生物学)</b></td></tr>
                                                        
                                                 </table></td>
                                                 <td><table style="width:225px; border:1px solid">
@@ -183,19 +223,19 @@
                                                                                                
                                                 
                                                 <td><table style="width:225px; border:1px solid">
-                                                        <tr><td><a href="hzj.html">
-                                                        <img src="images/staff/hzj.jpg" style="height:225px;"/>        
+                                                        <tr><td><a href="bly.html">
+                                                        <img src="images/staff/bly.jpg" style="height:225px;"/>        
                                                         </a>
                                                                 </td></tr>
-                                                        <tr><td style="text-align:center"><b>侯之杰(生物学)</b></td></tr>
+                                                        <tr><td style="text-align:center"><b>巴刘洋(生态学)</b></td></tr>
 
                                                 </table></td>
                                                 <td><table style="width:225px;border:1px solid">
-                                                        <tr><td><a href="zjy.html">
-                                                        <img src="images/staff/zjy.jpg" style="height:225px;"/>        
+                                                        <tr><td><a href="zxy.html">
+                                                        <img src="images/staff/zxy.jpg" style="height:225px;"/>        
                                                         </a>
                                                                 </td></tr>
-                                                        <tr><td style="text-align:center"><b>张佳燕(生态学)</b></td></tr>
+                                                        <tr><td style="text-align:center"><b>周悦欣(生态学)</b></td></tr>
 
                                                 </table></td>
                                         </tr>
@@ -203,7 +243,7 @@
                         </div>
                 </div>
                 
-                 <div class="f_container1" style="top:2070px">
+                 <!--<div class="f_container1" style="top:2070px">
         
                         <div class="subtitle1">本科生<hr /></div>
                         <div class="context1">
@@ -221,7 +261,7 @@
                                                         <tr><td style="text-align:center"><b>赵佳欣</b></td></tr>
 
                                                 </table></td>
-                                                <!--<td><table style="width:225px; border:1px solid">
+                                                <td><table style="width:225px; border:1px solid">
                                                         <tr><td><img src="../../images/staff/chenquanyu.jpg" /></td></tr>
                                                         <tr><td style="text-align:center"><b></b></td></tr>
                                                        
@@ -230,16 +270,16 @@
                                                         <tr><td><img src="../../images/staff/suomingyu.jpg" /></td></tr>
                                                         <tr><td style="text-align:center"><b></b></td></tr>
 
-                                                </table></td>-->
+                                                </table></td>
                                            
                                             
                                         </tr>
                                      </table>
                         </div>
-                </div>
+                </div>-->
 
              
-                <div class="f_container1" style="top:2520px">
+                <!--<div class="f_container1" style="top:2520px">
         
                         <div class="subtitle1">访问学者<hr /></div>
                         <div class="context1">
@@ -270,13 +310,13 @@
                                         </tr>
                                      </table>
                         </div>
-                </div>
+                </div>-->
 
               <!-- <div class="f_container1" style="top:450px; left : 0px">
                         <div style="text-align:center"><div class="subtitle9"><a href="former_member.html">前团队成员</a></div></div>
                         
                 </div>-->
 
-                <div class="f_bottom1" style="top:2970px; left : 0px"><div class="bottom1">©华中师范大学生命科学学院焦恒武实验室&nbsp; 地址:武汉市珞喻路152号生命科学学院&nbsp;&nbsp; 邮政编码:430072</div></div>
+                <div class="f_bottom1" style="top:2070px; left : 0px"><div class="bottom1">©华中师范大学生命科学学院焦恒武实验室&nbsp; 地址:武汉市珞喻路152号生命科学学院&nbsp;&nbsp; 邮政编码:430072</div></div>
         </body>
 </html>
