@@ -10,6 +10,43 @@
     width: 240px;
     height: 50px
 }
+/* 下拉菜单容器 */
+.f_navigator2 .subnav {
+    display: none;
+    position: absolute;
+    top: 50px; /* 刚好在主菜单下方 */
+    left: 0;
+    width: 240px; /* 跟 f_navigator2 一样宽 */
+    background: rgba(46, 139, 87, 0.9);;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+/* 二级菜单项 */
+.f_navigator2 .subnav li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.f_navigator2 .subnav li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.f_navigator2 .subnav li a:hover {
+    background-color: #f1f1f1;
+    color: seagreen;
+}
+
+/* 悬停显示二级菜单 */
+.f_navigator2:hover .subnav {
+    display: block;
+}
 
 .f_logo1 {
     position: absolute;
@@ -331,4 +368,54 @@
 
 #div1 ul li img {
     width: 100%;
+}
+.teacher-container {
+    position: absolute;
+    width: 1100px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.teacher-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.teacher-card {
+    display: flex;
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.teacher-card img {
+    width: 150px;
+    height: 170px;
+    object-fit: cover;         /* 保持比例裁剪填满框 */
+    object-position: center;   /* 图片内容居中显示 */
+    border-radius: 4px;
+    margin-right: 15px;
+    flex-shrink: 0;
+    display: block;            /* 防止图片底部有空隙 */
+    margin-top: 15px;
+}
+
+.teacher-info {
+    flex: 1;
+    font-size: 14px;
+}
+.teacher-info ul {
+    padding-left: 20px;  /* 增加左边空白，让点不会太靠近图片 */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.teacher-info li {
+    margin-bottom: 3px;  /* 每条之间稍微分开 */
+}
+.year-title {
+    color: #2e8b57; /* 这里换成你想要的颜色 */
+    font-weight: bold;
+    margin-top: 20px;
 }
