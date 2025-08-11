@@ -10,7 +10,7 @@
     width: 240px;
     height: 50px
 }
-/* 下拉菜单容器 */
+
 .f_navigator2 .subnav {
     display: none;
     position: absolute;
@@ -25,7 +25,7 @@
     z-index: 100;
 }
 
-/* 二级菜单项 */
+
 .f_navigator2 .subnav li {
     height: 40px;
     line-height: 40px;
@@ -43,7 +43,7 @@
     color: seagreen;
 }
 
-/* 悬停显示二级菜单 */
+
 .f_navigator2:hover .subnav {
     display: block;
 }
