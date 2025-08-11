@@ -14,9 +14,9 @@
 .f_navigator2 .subnav {
     display: none;
     position: absolute;
-    top: 50px; /* 刚好在主菜单下方 */
+    top: 50px; 
     left: 0;
-    width: 240px; /* 跟 f_navigator2 一样宽 */
+    width: 240px; 
     background: rgba(46, 139, 87, 0.9);;
     list-style: none;
     margin: 0;
@@ -392,12 +392,12 @@
 .teacher-card img {
     width: 150px;
     height: 170px;
-    object-fit: cover;         /* 保持比例裁剪填满框 */
-    object-position: center;   /* 图片内容居中显示 */
+    object-fit: cover;         
+    object-position: center;   
     border-radius: 4px;
     margin-right: 15px;
     flex-shrink: 0;
-    display: block;            /* 防止图片底部有空隙 */
+    display: block;            
     margin-top: 15px;
 }
 
@@ -406,16 +406,16 @@
     font-size: 14px;
 }
 .teacher-info ul {
-    padding-left: 20px;  /* 增加左边空白，让点不会太靠近图片 */
+    padding-left: 20px;  
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .teacher-info li {
-    margin-bottom: 3px;  /* 每条之间稍微分开 */
+    margin-bottom: 3px;  
 }
 .year-title {
-    color: #2e8b57; /* 这里换成你想要的颜色 */
+    color: #2e8b57; 
     font-weight: bold;
     margin-top: 20px;
 }
