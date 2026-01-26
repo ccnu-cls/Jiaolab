@@ -246,3 +246,20 @@
     background-color: seagreen;
     color: rgb(250, 250, 250)
 }
+/* DOI：偏蓝，表示外部链接 */
+a.doi {
+  color: #1a73e8;      /* 蓝色 */
+  font-weight: 600;
+}
+
+/* PDF：偏绿，表示本地全文 */
+a.pdf {
+  color: #2a7f62;      /* 学术绿 */
+  font-weight: 600;
+}
+
+/* hover 效果 */
+a.doi:hover,
+a.pdf:hover {
+  text-decoration: underline;
+}
