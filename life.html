@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+
+   <link href="styles/main.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/unslider.min.js"></script>
+    <script src="scripts/autoplay.js"></script>
+    <script src="scripts/life.js"></script>
+  <title>生活剪影 | 实验室</title>
+
+<!--<style>
+    /* ===============================
+       主题变量（与主页绿色主题一致）
+       =============================== */
+    :root {
+      --theme-green: #2a7f62;
+      --theme-green-light: #e6f2ee;
+      --text-main: #333;
+      --text-muted: #777;
+      --bg-main: #ffffff;
+      --bg-page: #fafafa;
+    }
+
+    /* ===============================
+       全局
+       =============================== */
+ /*body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-page);
+      color: var(--text-main);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+*/
+    /* ===============================
+       页面标题
+       =============================== */
+    .page-title {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 8px;
+      color: var(--theme-green);
+      margin-top: 100px;
+    }
+
+    .page-subtitle {
+      text-align: center;
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 60px;
+    }
+
+    /* ===============================
+       活动区块
+       =============================== */
+    .activity {
+      margin-bottom: 70px;
+    }
+
+    .activity h3 {
+      font-size: 22px;
+      margin-bottom: 18px;
+      padding-left: 12px;
+      border-left: 5px solid var(--theme-green);
+    }
+
+    /* ===============================
+       图片网格（核心：自适应）
+       =============================== */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 190px;              /* 统一展示高度 */
+      object-fit: cover;          /* 不拉伸，自动裁剪 */
+      object-position: center;
+      border-radius: 10px;
+      background: var(--theme-green-light);
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .gallery img:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    /* ===============================
+       大图预览
+       =============================== */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .lightbox img {
+      max-width: 90vw;
+      max-height: 90vh;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+ 
+    /* ===============================
+       响应式微调
+       =============================== */
+    @media (max-width: 600px) {
+      .gallery img {
+        height: 160px;
+      }
+    }
+  </style>
+-->
+</head>
+
+<body>
+<div class="f_navigator1">
+    <div class="f_navigator2" style="left:0px">
+        <a href="index.html"><div class="navigator1">首页</div></a>
+    </div>
+
+
+    <div class="f_navigator2" style="left:240px">
+        <a href="our_lab.html"><div class="navigator1">成员介绍</div></a>
+        <ul class="subnav">
+            <li><a href="our_lab.html">现有成员</a></li>
+            <li><a href="former_member.html">过去成员</a></li>
+        </ul>
+    </div>
+
+    <div class="f_navigator2" style="left:480px">
+        <a href="research.html"><div class="navigator1">研究方向</div></a>
+    </div>
+
+    <div class="f_navigator2" style="left:720px">
+        <a href="publication.html"><div class="navigator1">研究成果</div></a>
+    </div>
+
+    <div class="f_navigator2" style="left:960px">
+        <a href="join_us.html">
+          <div class="navigator2">其他</div>
+        </a>
+        <ul class="subnav">
+        <li><a href="join_us.html">招贤纳士</a></li>
+        <li><a href="life.html">生活剪影</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+  <h2 class="page-title">生活剪影</h2>
+  <p class="page-subtitle">记录实验室的日常、探索与欢笑</p>
+
+  <!-- ===== 活动 1 ===== -->
+  <section class="activity">
+    <h3>2025 · 实验室聚会</h3>
+    <div class="gallery">
+      <img src="images/life/2025_party_1.jpg" alt="实验室聚会">
+      <img src="images/life/2025_party_2.jpg" alt="实验室聚会">
+      <img src="images/life/2025_party_3.jpg" alt="实验室聚会">
+      <img src="images/life/2025_party_4.jpg" alt="实验室聚会">
+    </div>
+  </section>
+
+  <!-- ===== 活动 2 ===== -->
+  <section class="activity">
+    <h3>2025 · 野外采样</h3>
+    <div class="gallery">
+      <img src="images/life/2025_fieldwork_1.jpg" alt="野外采样">
+      <img src="images/life/2025_fieldwork_2.jpg" alt="野外采样">
+      <img src="images/life/2025_fieldwork_3.jpg" alt="野外采样">
+      <img src="images/life/2025_fieldwork_4.jpg" alt="野外采样">
+    </div>
+  </section>
+
+  <!-- ===== 活动 3 ===== -->
+  <!--<section class="activity">
+    <h3>2024 · 学术会议</h3>
+    <div class="gallery">
+      <img src="images/life/2024_meeting/1.jpg" alt="学术会议">
+      <img src="images/life/2024_meeting/2.jpg" alt="学术会议">
+    </div>
+  </section>
+
+</div>
+-->
+
+<!-- ===== 大图预览 ===== -->
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" alt="">
+</div>
+
+<script>
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  document.querySelectorAll(".gallery img").forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightbox.style.display = "flex";
+    });
+  });
+
+  lightbox.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+</script>
+
+</body>
+</html>

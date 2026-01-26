@@ -1,0 +1,102 @@
+    /* ===============================
+       主题变量（与主页绿色主题一致）
+       =============================== */
+    :root {
+      --theme-green: #2a7f62;
+      --theme-green-light: #e6f2ee;
+      --text-main: #333;
+      --text-muted: #777;
+      --bg-main: #ffffff;
+      --bg-page: #fafafa;
+    }
+
+
+    /* ===============================
+       页面标题
+       =============================== */
+    .page-title {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 8px;
+      color: var(--theme-green);
+      margin-top: 100px;
+    }
+
+    .page-subtitle {
+      text-align: center;
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 60px;
+    }
+
+/* ===============================
+   活动区块
+   =============================== */
+.activity {
+  margin-bottom: 70px;
+}
+
+.activity h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  padding-left: 12px;
+  border-left: 5px solid var(--theme-green);
+  color: var(--text-main);
+}
+
+/* ===============================
+   图片网格（展示时裁剪，不拉伸）
+   =============================== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;          /* 关键：统一比例 */
+  object-fit: cover;            /* 裁剪填充，不拉伸 */
+  object-position: center;
+  border-radius: 10px;
+  background: var(--theme-green-light);
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.gallery img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* ===============================
+   Lightbox（原图比例显示）
+   =============================== */
+.lightbox {
+  display: none;              /* 默认隐藏 */
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;                 /* 关键：不拉伸 */
+  object-fit: contain;          /* 原图完整显示 */
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* ===============================
+   响应式
+   =============================== */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
